@@ -4,7 +4,7 @@ const nodemailer = require("nodemailer");
 const cors = require("cors");
 require('dotenv').config();
 const PORT = process.env.port || 8080;
-app.use(cors({origin: "https://piyushhh786-web.onrender.com/"}));
+app.use(cors());
 app.use(express.json());
 const axios = require("axios");
 
