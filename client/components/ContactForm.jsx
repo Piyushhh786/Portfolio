@@ -120,7 +120,7 @@ const ContactForm = () => {
       </div>
 
       <ReCAPTCHA
-        sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" // Replace with your site key
+        sitekey="6LeD5BUrAAAAANXINksKLyz7kAJ5AesmrH2mcGGz" // Replace with your site key
         onChange={(token) => setCaptchaToken(token)}
       />
 
