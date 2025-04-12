@@ -13,7 +13,7 @@ Hey there! I'm **Piyush**, a passionate Full Stack Developer who loves building 
 
 ## 📸 Preview
 
-![Portfolio Preview](./preview.png)
+![Portfolio Preview](./client/public/preview.png)
 
 ---
 
