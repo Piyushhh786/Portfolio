@@ -4,12 +4,10 @@ const nodemailer = require("nodemailer");
 const cors = require("cors");
 require('dotenv').config();
 const PORT = process.env.port || 8080;
-app.use(cors());
+app.use(cors({origin:"https://piyushhh786-web.onrender.com"}));
 app.use(express.json());
 const axios = require("axios");
-app.get('/',async(req,res)=>{
-  return res.status(400).json({message:"server running properly"});
-});
+
 app.post('/contact', async (req, res) => {
     const { name, email, subject, message , captcha} = req.body;
     // console.log("req sended to the correct api")
