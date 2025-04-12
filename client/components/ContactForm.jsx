@@ -44,7 +44,7 @@ const ContactForm = () => {
     }
 
     try {
-      const res = await fetch('http://localhost:8080/contact', {
+      const res = await fetch('https://piyushhh786-web-server.onrender.com/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({...formData, captcha: captchaToken} )
