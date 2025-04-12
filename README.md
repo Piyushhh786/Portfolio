@@ -21,11 +21,9 @@ Hey there! I'm **Piyush**, a passionate Full Stack Developer who loves building 
 
 > This portfolio is built with:
 
-- **Frontend:** HTML, CSS, JavaScript
 - **Framework:** React.js
 - **Styling:** Tailwind CSS
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB / MySQL
 - **Deployment:** Render
 
 ---
