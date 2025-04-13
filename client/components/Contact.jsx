@@ -53,7 +53,7 @@ const Contact = ({contactRef}) => {
         </div>
         
         {/* Contact Form */}
-        <div className="md:col-span-3 bg-gray-800 rounded-lg shadow-md p-6 border border-gray-700">
+        <div className="md:col-span-3 bg-gray-800 rounded-lg shadow-md p-3 border border-gray-700">
           <h3 className="text-xl font-semibold text-white mb-6">Send Me a Message</h3>
           <ContactForm/>
           
